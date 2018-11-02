@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.grains {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  padding: 0;
+  margin:0;
+  width: auto;
+  display: flex;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  padding: .4rem 0;
+  list-style-type: none;
+  background-color: #d05c2e;
+}
+
+nav a {
+  display: flex;
+  padding: .5em 0;
+  margin: 0 0 .3em;
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  display: flex;
+  padding: .5em 0;
+}
+
+nav a:hover {
+  background-color: #a63f38;
+}
+
+.food {
+  padding: .5em 0;
+  display: flex;
+}
+
+.food > li {
+  display: flex;
+  padding: 4rem 0;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.btn
+
+body {
+}
