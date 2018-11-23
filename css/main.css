@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -9,31 +9,39 @@ html {
 }
 
 h1 {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0;
   text-align: center;
   color: #fff;
+  order: 0;
 }
 
 .grains {
-  display: flex;
-  justify-content: space-between;
+  overflow: auto;
+  display: inline-block;
+  margin: 0;
 }
 
 img {
+  display: inline-block;
   padding: 0;
-  margin:0;
-  width: auto;
-  display: flex;
+  margin: 0;
+  width: 5%;
 }
 
 nav {
   align-items: center;
-  display: flex;
+  display: inline-block;
   padding: .4rem 0;
   list-style-type: none;
   background-color: #d05c2e;
 }
 
 nav a {
+  font-weight: normal;
+  border: 1px solid #a63f38;
   display: flex;
   padding: .5em 0;
   margin: 0 0 .3em;
@@ -65,4 +73,5 @@ nav a:hover {
 .btn
 
 body {
+  margin: 0;
 }
